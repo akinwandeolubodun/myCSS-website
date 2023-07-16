@@ -1,0 +1,179 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@400;500&family=Dancing+Script:wght@500;700&family=Kablammo&family=Roboto:wght@100;300&display=swap');
+
+
+.box {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    padding: 10px;
+    border: 2px solid green;
+}
+
+.static {
+    position: initial;
+    background-color: rgb(201, 165, 165);
+	font-family: 'Kablammo', cursive;
+}
+
+h1 {
+	color: red;
+}
+
+nav {
+	float: center;
+	padding: 5px;
+	background-color: black;
+	
+  }
+
+  nav img {
+	width: 20px;
+	filter: invert(100%);
+	vertical-align: middle;
+  }
+
+ nav ul {
+	list-style: none;
+	padding: 0;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 100%;
+	
+ }
+
+ nav ul div {
+	height: 100%;
+
+ }
+
+ nav ul li {
+	display: inline-block;
+	padding: 0px 10px;
+	box-sizing: border-box;
+	color: white;
+	height: 100%;
+  }
+
+  nav ul li a {
+	text-decoration: none;
+	color: white;
+  }
+
+  .center {
+	display: inline-flex;
+	align-items: stretch;
+	height: 100%;
+  }
+
+  #menu-icon {
+    display: hidden;
+    width: 40px;
+    height: 40px;
+    background-size: contain;
+}
+
+body {
+	background-color: none;
+  }
+  
+  .jumbotron h1 {
+	color: #f7fafe;
+  }
+  
+  .features {
+	padding: 5% 0;
+	background-color: #323232;
+	border-radius: 2em;
+  }
+  
+  .features p {
+	font-family: "Muli" "sans-serif";
+	text-align: center;
+	color: #f7fafe;
+	font-size: 1.2em;
+	padding-top: 2em;
+  }
+  
+  footer {
+	background-color: #f8f9fa;
+	color: #6c757d;
+	width: 100%;
+	padding: 1em;
+  }
+  
+  footer a {
+	color: #6c757d;
+	text-decoration: none;
+  }
+  
+  footer a:hover {
+	color: #212529;
+  }
+  
+  footer ul {
+	display: flex;
+	justify-content: center;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	color: purple;
+  }
+  
+  footer li {
+	margin: 0 10px;
+  }
+  
+	footer .col-md-4 {
+	  margin-top: 20px;
+	  text-align: center;
+	  position: centerS;
+	  color: red;
+	  font-weight: 300;
+	}
+  

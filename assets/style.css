@@ -1,0 +1,92 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+  @import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@400;500&family=Dancing+Script:wght@500;700&family=Kablammo&family=Roboto:wght@100;300&display=swap');
+
+h1 {
+    color: red;
+    font-family: 'Chakra Petch', sans-serif;
+}
+
+h1:hover {
+    background-color: aquamarine;
+    color: brown;
+}
+
+p {
+    color: greenyellow;
+    font-size: 25px;
+    font-family: 'Chakra Petch', sans-serif;
+}
+
+ul li {
+    font-style: italic;
+    color: blueviolet;
+    font-family: 'Chakra Petch', sans-serif;
+}
+
+#successor {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    width: 200px;
+    /* height: 200px; */
+    color: purple;
+    background-color: rgb(217, 217, 231);
+    padding: 30px;
+    /* when border=double were used before red border color, code was ineffective, */
+    border: double;
+    border: 1px solid red;
+    /* when border = double, groovy or anything was used after boder color, border color red was over written and disappears */
+    /* border style command was ineffective too */
+    border-style: double;
+    border-radius: 30px;
+}
+
+
+
+ 
